@@ -1,0 +1,14 @@
+
+<div>
+    <ng-container *ngFor="let hero of array">
+      <div class="ui-g-12 ui-md-3">
+        <img [src]="hero.Poster">
+        <br/>
+        <span> Title: {{ hero.Title }} Type: {{hero.Type }} Year:{{ hero.Year}} </span>
+        
+        <br/>
+
+      </div>
+    </ng-container>
+</div>
+      
